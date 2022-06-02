@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-parent" />
+        <module name="dubbo-demo-annotation-provider" />
+        <module name="dubbo-demo-xml-provider" />
+        <module name="dubbo-demo-interface" />
+        <module name="dubbo-demo-annotation-consumer" />
+        <module name="dubbo-demo-xml-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-demo-interface" options="" />
+    </option>
+  </component>
+</project>
